@@ -8,11 +8,20 @@ A Homebrew tap containing custom casks for macOS applications.
 
 ### Homebrew (macOS)
 ```bash
-brew install foxfollow/stone/stone-clipboarder-tool
+brew tap foxfollow/stone
+brew install stone-clipboarder-tool
 ```
+
+The app will be automatically configured to run without security warnings.
 
 ### Manual Download
 Download the latest `.zip` from [Releases](https://github.com/foxfollow/Stone-Clipboarder-Tool/releases)
+
+If macOS blocks the app on first launch:
+```bash
+xattr -d com.apple.quarantine /Applications/StoneClipboarderTool.app
+```
+
 
 ## More Information
 
