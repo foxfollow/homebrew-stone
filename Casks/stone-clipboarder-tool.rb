@@ -1,6 +1,6 @@
 cask "stone-clipboarder-tool" do
-  version "1.5.3"
-  sha256 "be9d78f75205c4c82d1017b0df9732b5c1a4ecc7c143f04bfa64c81eddb7757d"
+  version "1.5.4"
+  sha256 "d3d7dc45e68a8c8a3cf840f657cef6e5be7496bf382500fed576729ec8498f5c"
   
   url "https://github.com/foxfollow/Stone-Clipboarder-Tool/releases/download/v#{version}/StoneClipboarderTool.zip"
   name "Stone Clipboarder Tool"
