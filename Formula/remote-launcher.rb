@@ -14,6 +14,11 @@ class RemoteLauncher < Formula
     libexec.install "bin", "prompts", "skill"
     libexec.install "README.md", "LICENSE", "CHANGELOG.md"
 
+    # The scripts read their version from PROJECT_DIR/VERSION. Write it from the
+    # formula's own version (derived from the url tag) so it's always correct
+    # and independent of whether the source tarball ships a VERSION file.
+    (libexec/"VERSION").write "#{version}\n"
+
     %w[remote-launcher remote-launcher-doctor].each do |exe|
       (bin/exe).write <<~SH
         #!/bin/bash
