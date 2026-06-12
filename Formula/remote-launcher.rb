@@ -1,8 +1,8 @@
 class RemoteLauncher < Formula
   desc "Run Claude Code locally while executing Bash on a remote host via SSH"
   homepage "https://github.com/foxfollow/remote-launcher"
-  url "https://github.com/foxfollow/remote-launcher/archive/refs/tags/v0.2.2.tar.gz"
-  sha256 "e660c199c44f3f44345d3b68a61a6eb1ad1a5e4d932a077061fcd3ab3b867ba9"
+  url "https://github.com/foxfollow/remote-launcher/archive/refs/tags/v0.2.3.tar.gz"
+  sha256 "b324ebce5426badfa6235593f791413a84c9889b98792c9732a480da0a36fd46"
   license "MIT"
 
   def install
